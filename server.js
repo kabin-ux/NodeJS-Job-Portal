@@ -17,5 +17,5 @@ app.use('/api/jobs', jobRouter);
 
 app.use('/api/test', testRouter);
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT || 3000, () => console.log(`Server running on port ${PORT}`));
 
